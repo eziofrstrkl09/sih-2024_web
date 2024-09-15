@@ -1,0 +1,39 @@
+/* Videos.css */
+.intro-text {
+    padding: 20px;
+    background-color: #eee;
+    font-size: 1.2rem;
+    align-items: center;
+  }
+  
+  .content-container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+  
+  .side {
+    overflow-y: auto;
+    padding: 20px;
+  }
+  
+  .left-side {
+    flex: 3;
+    background-color: #f0f0f0;
+    border-right: 2px solid #ccc;
+  }
+  
+  .right-side {
+    flex: 7;
+    background-color: #fff;
+  }
+  
+  .content {
+    height: 150vh;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 360px;
+  }
+  
